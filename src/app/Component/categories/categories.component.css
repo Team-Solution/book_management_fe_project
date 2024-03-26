@@ -1,0 +1,48 @@
+
+.navbar {
+  background-color: #f8f9fa; /* Thay đổi màu nền */
+}
+
+.navbar-brand, .nav-link {
+  color: #333; /* Thay đổi màu chữ */
+}
+
+.navbar-toggler-icon {
+  background-color: #333; /* Thay đổi màu của biểu tượng toggle */
+}
+.navbar {
+  padding: 10px 20px; /* Thay đổi khoảng cách giữa các phần tử */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Thay đổi kích thước của chữ trong navbar-brand */
+}
+
+.nav-link {
+  font-size: 16px; /* Thay đổi kích thước của chữ trong nav-link */
+}
+.nav-link:hover {
+  color: #007bff; /* Thay đổi màu chữ khi di chuột qua */
+}
+
+.nav-link.active {
+  color: #28a745; /* Thay đổi màu chữ của nav-link active */
+}
+.form-inline {
+  display: flex; /* Hiển thị theo kiểu flex */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.form-control {
+  border-radius: 20px; /* Đổi bo tròn cho input */
+}
+
+.btn-outline-success {
+  border-color: #28a745; /* Thay đổi màu viền của button */
+  color: #28a745; /* Thay đổi màu chữ của button */
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745; /* Thay đổi màu nền của button khi hover */
+  color: #fff; /* Thay đổi màu chữ của button khi hover */
+}
